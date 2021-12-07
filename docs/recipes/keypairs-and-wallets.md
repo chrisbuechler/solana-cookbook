@@ -40,7 +40,7 @@ keypair, you will need to generate one.
 
 @[code](@/code/keypairs-and-wallets/generate-keypair/generate-keypair.preview.en.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 
@@ -82,7 +82,7 @@ to test out your dApp.
 
 @[code](@/code/keypairs-and-wallets/keypair-from-secret/keypair-from-secret.en.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 
@@ -108,7 +108,6 @@ to test out your dApp.
   </SolanaCodeGroupItem>
 
 </SolanaCodeGroup>
-
 
 ## Verify a Keypair
 
@@ -144,7 +143,7 @@ matches the given public key
 
 @[code](@/code/keypairs-and-wallets/verify-keypair/verify-keypair.en.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 
@@ -153,7 +152,7 @@ matches the given public key
 ## Convert Mnemonic to Keypair
 
 Many wallet extensions use mnemonics to represent their secret keys.
-You can convert the mneomics to Keypairs for local testing.
+You can convert the mnemonics to Keypairs for local testing.
 
 1. BIP39
 
@@ -186,7 +185,7 @@ You can convert the mneomics to Keypairs for local testing.
 
 @[code](@/code/keypairs-and-wallets/mnemonic-to-keypair/from-bip39.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 
@@ -223,7 +222,7 @@ You can convert the mneomics to Keypairs for local testing.
 
 @[code](@/code/keypairs-and-wallets/mnemonic-to-keypair/from-bip44.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 
@@ -268,7 +267,7 @@ take.
 
 @[code](@/code/keypairs-and-wallets/vanity-publickeys/vanity-publickeys.en.sh)
 
-  </template>  
+  </template>
 
   </SolanaCodeGroupItem>
 

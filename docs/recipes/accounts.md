@@ -96,7 +96,7 @@ PDAs can only be signed for within the program. Below is a program example of si
 
 #### Program
 
-There is only one insuction, trasnfering 0.1 SOL to the account you passed. The `from` is a PDA which derived by seed, `escrow`. We use `invoke_signed` to sign the PDA.
+There is only one instruction, transfering 0.1 SOL to the account you passed. The `from` is a PDA which derived by seed, `escrow`. We use `invoke_signed` to sign the PDA.
 
 <SolanaCodeGroup>
   <SolanaCodeGroupItem title="rust" active>

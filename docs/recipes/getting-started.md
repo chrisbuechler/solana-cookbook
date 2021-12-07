@@ -4,13 +4,13 @@ title: Installation
 
 ## Install Web3JS
 
-There's a few libraries that you can use to get you started with javascript or typescript on Solana.<br/>
+There are a few libraries that you can use to get started with javascript or typescript on Solana.<br/>
 
 ### Web3.js
 
 `@solana/web3.js` is a library that has a lot of the basic Solana tools to interact, send transactions, and read from the chain.
 
-You can install using the following:
+You can install it using the following:
 
 <CodeGroup>
   <CodeGroupItem title="YARN" active>
@@ -47,7 +47,7 @@ npm install --save @solana/web3.js
 ### SPL-Token
 
 `@solana/spl-token` is a library that contains many of the javascript/typescript bindings to interact with spl-tokens.
-    You can use this library to mint, transfer, and more with spl-tokens.
+You can use this library to mint, transfer, and more with spl-tokens.
 
 You can install this library with one of the following:
 
@@ -86,8 +86,8 @@ npm install --save @solana/spl-token
 ### Wallet-Adapter
 
 There is a collection of libraries that can help bootstrap wallet connections within Solana called wallet-adapter.
-    Currently the package supports use within Angular, Vue.js, and React. Wallet-adapter can quickstart your dApp
-    integration with wallets like Phantom, Solflare, and more.
+Currently the package supports use within Angular, Vue.js, and React. Wallet-adapter can quickstart your dApp
+integration with wallets like Phantom, Solflare, and more.
 
 You can install this library with the following:
 
@@ -147,7 +147,7 @@ sh -c "$(curl -sSfL https://release.solana.com/LATEST_RELEASE/install)"
 
 You can replace `LATEST_RELEASE` with the release tag matching
 the software version of your desired release, or use one of the three symbolic
-channel names: `stable`, `beta`, or `edge`. To find the latest release, check 
+channel names: `stable`, `beta`, or `edge`. To find the latest release, check
 versions available [here](https://github.com/solana-labs/solana/releases).
 
 The following output indicates a successful update:

@@ -7,8 +7,7 @@ title: Interacting with Tokens
 ## Create Token
 
 Creating tokens is done by creating what is called a "mint account".
-This mint account is later used to mint tokens to a token account and
-create the initial supply.
+This mint account is later used to mint tokens to a token account and create the initial supply.
 
 <CodeGroup>
   <CodeGroupItem title="TS" active>
@@ -197,7 +196,6 @@ Revoke will set delegate to null and set delegated amount to 0.
   </CodeGroupItem>
 </CodeGroup>
 
-
 ## Wrapped SOL
 
 Wrapped SOL just like any other token mint. The difference is using `syncNative`
@@ -225,7 +223,6 @@ There are two ways to add balance for Wrapped SOL
   </CodeGroupItem>
 </CodeGroup>
 
-
 #### 2. By Token Transfer
 
 <CodeGroup>
@@ -249,7 +246,6 @@ You can fetch token accounts by owner. There are two ways to do it.
 
   </CodeGroupItem>
 </CodeGroup>
-
 
 2. Filter By Mint
 

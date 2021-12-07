@@ -7,8 +7,9 @@ title: Local Development
 ## Setting Up Connections
 
 When you are working on Solana development, you will need to connect
-to a specific RPC API endpoint. Solana has 3 public development 
+to a specific RPC API endpoint. Solana has three public development
 environments:
+
 - mainnet-beta https://api.mainnet-beta.solana.com
 - devnet https://api.devnet.solana.com
 - testnet https://api.testnet.solana.com
@@ -82,7 +83,7 @@ running remotely with the following:
 
 ## Airdropping SOL
 
-When you're working locally, you need some SOL in order to send 
+When you're working locally, you need some SOL in order to send
 transactions. In non-mainnet environments you can receive SOL by
 airdropping it to your address
 
@@ -124,7 +125,7 @@ Testing your program code locally can be a lot more reliable than
 testing on devnet, and can help you test before trying it out on devnet.
 
 You can setup your local-test-validator by installing the [solana tool suite](getting-started.md#install-cli)
-and running 
+and running
 
 ```console
 solana-test-validator
@@ -132,7 +133,7 @@ solana-test-validator
 
 Benefits of using local-test-validator include:
 
-- No RPC rate-limits 
+- No RPC rate-limits
 - No airdrop limits
 - Direct on-chain program deployment (`--bpf-program ...`)
 - Clone accounts from a public cluster, including programs (`--clone ...`)
