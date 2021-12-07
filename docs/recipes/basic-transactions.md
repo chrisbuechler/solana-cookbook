@@ -6,7 +6,7 @@ title: Basic Transactions
 
 ## Sending SOL
 
-To sending SOL, you will need to interact with the [SystemProgram][1].
+To send SOL, you will need to interact with the [SystemProgram][1].
 
 <SolanaCodeGroup>
   <SolanaCodeGroupItem title="TS" active>

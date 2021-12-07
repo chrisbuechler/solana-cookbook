@@ -6,9 +6,7 @@ title: Accounts
 
 ## Create a System Account
 
-Create an account that the [System Program][1] owns. The Solana runtime will grant the owner of an account, access to
-write to its data or transfer lamports. When creating an account, we have to preallocate a fixed storage space in bytes
-(`space`) and enough lamports to cover the rent. [Rent][2] is a cost incurred to keep accounts alive on Solana.
+Create an account that the [System Program][1] owns. The Solana runtime will grant the owner of an account access to write to its data or transfer lamports. When creating an account, we have to preallocate a fixed storage space in bytes (`space`) and enough lamports to cover the rent. [Rent][2] is a cost incurred to keep accounts alive on Solana.
 
 <SolanaCodeGroup>
   <SolanaCodeGroupItem title="TS" active>
